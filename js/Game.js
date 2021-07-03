@@ -116,7 +116,7 @@ class Game{
                 text("Score of "+allPlayers.player1.name+":"+allPlayers.player1.score, 50, 50);
                 text("Score of "+allPlayers.player2.name+":"+allPlayers.player2.score, 50, 100);
                 
-                if(allPlayers.player1.score >= 1 || allPlayers.player2.score >= 1){
+                if(allPlayers.player1.score >= 10 || allPlayers.player2.score >= 10){
                     this.end();
                     break;
                 }
